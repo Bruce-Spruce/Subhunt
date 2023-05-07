@@ -21,4 +21,6 @@ endif (UNIX)
 
 link_libraries(-llua)
 
+
+install( DIRECTORY lua/ DESTINATION ${CMAKE_BINARY_DIR}/lua)
 add_executable(${PROJECT_NAME} subhunt.cpp)
