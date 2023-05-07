@@ -3,6 +3,9 @@
 #include <lua.hpp>
 
 
+// TODO: make the background retangles relative to the screen size, also with spawning
+
+
 class Subhunt: public groover::Renderer {
 
     private:
@@ -83,8 +86,7 @@ class Subhunt: public groover::Renderer {
             L = luaL_newstate();
             luaL_openlibs(L);
             // we have all lua libraries
-            int test = luaL_dofile(L, "./lua/subhunt.lua");
-            std::cout << "luaL_loadfile res: " << test << std::endl;
+            luaL_dofile(L, "./lua/subhunt.lua");
 
             // white background
             this->SetBackgroundColor(255,255,255);
