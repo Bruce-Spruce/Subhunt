@@ -1,3 +1,0 @@
-/home/brice/Programming/Subhunt/build/CMakeFiles/rebuild_cache.dir
-/home/brice/Programming/Subhunt/build/CMakeFiles/edit_cache.dir
-/home/brice/Programming/Subhunt/build/CMakeFiles/subhunt.dir
